@@ -8,7 +8,7 @@ We aren't necessarily looking for a complete solution, but a working sketch that
 Each part should take 1-2 hours depending on experience, enter as many notes as you like (or none at all!). 
 These will be used to create talking points during your interview.
 
-If you have any questions or would like to clarify any details, please email stefano.degrandis@workl.co
+If you have any questions or would like to clarify any details, please email foster.ogwudu@workl.co
 
 Good luck!
 
