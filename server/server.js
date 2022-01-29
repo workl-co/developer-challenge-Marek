@@ -41,6 +41,14 @@ const RootQueryType = new GraphQLObjectType({
                 id: { type: GraphQLString }
             },
             resolve: (_, args) => questions.find(question => question.id === args.id)
+        },
+        enabledQuestions: {
+            type: new GraphQLList(QuestionType),
+            description: 'List of all enabled questions',
+            args: {
+                enabled: { type: GraphQLBoolean }
+            },
+            resolve: (_, args) => questions.filter(question => question.enabled === args.enabled)
         }
     })
 })
