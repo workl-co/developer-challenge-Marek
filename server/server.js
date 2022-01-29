@@ -33,6 +33,14 @@ const RootQueryType = new GraphQLObjectType({
             type: new GraphQLList(QuestionType),
             description: 'List of all questions',
             resolve: () => questions
+        },
+        question: {
+            type: QuestionType,
+            description: 'Find question by id',
+            args: {
+                id: { type: GraphQLString }
+            },
+            resolve: (_, args) => questions.find(question => question.id === args.id)
         }
     })
 })
