@@ -41,3 +41,13 @@ query {
   }
 }
 ```
+
+### Get only enabled questions
+In GraphiQL left side window paste this query:
+```
+query {
+  enabledQuestions(enabled: true) {
+    title
+  }
+}
+```
