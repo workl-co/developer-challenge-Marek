@@ -30,3 +30,14 @@ query {
   }
 }
 ```
+
+### Get question by ID
+
+In GraphiQL left side window paste this query:
+```
+query {
+  question(id: "2") {
+    title
+  }
+}
+```
