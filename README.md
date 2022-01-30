@@ -51,3 +51,20 @@ query {
   }
 }
 ```
+
+## Frontend
+
+For starters, run following commands
+```
+cd client
+npm i
+```
+
+To run the app type
+```
+npm start
+```
+
+
+### Note
+I have experience mostly with Angular framework. I do not work on daily basis with React and GraphQL, but I'm willing to learn and switch to different technologies.
