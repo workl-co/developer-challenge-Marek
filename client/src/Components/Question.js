@@ -1,8 +1,8 @@
 const Question = props => {
-    const title = props.data;
+    const { title } = props.data;
 
     return (
-        <div>
+        <div className="question">
             <h5>{title}</h5>
         </div>
     );

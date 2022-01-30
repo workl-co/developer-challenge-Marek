@@ -1,3 +1,10 @@
 .App {
   text-align: center;
 }
+
+.question {
+  background-color: rgb(240, 240, 240);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 12px;
+}

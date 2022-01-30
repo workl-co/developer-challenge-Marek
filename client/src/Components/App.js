@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       {enabledQuestions.map((question) => {
-        return <Question data={question.title} key={question.id} />
+        return <Question data={question} key={question.id} />
       })}
     </div>
   );
